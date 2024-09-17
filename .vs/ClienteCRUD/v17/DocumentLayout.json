@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|c:\\users\\pluca\\source\\repos\\clientecrud\\clientecrud\\views\\shared\\_devextremelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|solutionrelative:clientecrud\\views\\shared\\_devextremelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|c:\\users\\pluca\\source\\repos\\clientecrud\\clientecrud\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|solutionrelative:clientecrud\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|c:\\users\\pluca\\source\\repos\\clientecrud\\clientecrud\\views\\cliente\\gerenciarclientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|solutionrelative:clientecrud\\views\\cliente\\gerenciarclientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|c:\\users\\pluca\\source\\repos\\clientecrud\\clientecrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|solutionrelative:clientecrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|c:\\users\\pluca\\source\\repos\\clientecrud\\clientecrud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|solutionrelative:clientecrud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|c:\\users\\pluca\\source\\repos\\clientecrud\\clientecrud\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|solutionrelative:clientecrud\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|c:\\users\\pluca\\source\\repos\\clientecrud\\clientecrud\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|solutionrelative:clientecrud\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|c:\\users\\pluca\\source\\repos\\clientecrud\\clientecrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|solutionrelative:clientecrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|c:\\users\\pluca\\source\\repos\\clientecrud\\clientecrud\\models\\enums\\tipoendereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|solutionrelative:clientecrud\\models\\enums\\tipoendereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|c:\\users\\pluca\\source\\repos\\clientecrud\\clientecrud\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|solutionrelative:clientecrud\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|c:\\users\\pluca\\source\\repos\\clientecrud\\clientecrud\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|solutionrelative:clientecrud\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|c:\\users\\pluca\\source\\repos\\clientecrud\\clientecrud\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B1946C-A34A-478E-ABE7-55A6E3625DA8}|ClienteCRUD\\ClienteCRUD.csproj|solutionrelative:clientecrud\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ClienteCRUD\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ClienteCRUD\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T21:29:45.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClienteCRUD\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ClienteCRUD\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T21:26:06.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_DevExtremeLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\Shared\\_DevExtremeLayout.cshtml",
+              "RelativeDocumentMoniker": "ClienteCRUD\\Views\\Shared\\_DevExtremeLayout.cshtml",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\Shared\\_DevExtremeLayout.cshtml",
+              "RelativeToolTip": "ClienteCRUD\\Views\\Shared\\_DevExtremeLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T21:25:22.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "ClienteCRUD\\appsettings.json",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\appsettings.json",
+              "RelativeToolTip": "ClienteCRUD\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T19:08:02.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "ClienteCRUD\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Models\\Cliente.cs",
+              "RelativeToolTip": "ClienteCRUD\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:55:00.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Models\\Endereco.cs",
+              "RelativeDocumentMoniker": "ClienteCRUD\\Models\\Endereco.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Models\\Endereco.cs",
+              "RelativeToolTip": "ClienteCRUD\\Models\\Endereco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:54:51.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TipoEndereco.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Models\\Enums\\TipoEndereco.cs",
+              "RelativeDocumentMoniker": "ClienteCRUD\\Models\\Enums\\TipoEndereco.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Models\\Enums\\TipoEndereco.cs",
+              "RelativeToolTip": "ClienteCRUD\\Models\\Enums\\TipoEndereco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:46:24.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClienteCRUD\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "ClienteCRUD\\Views\\Cliente\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T17:36:13.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ClienteCRUD\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ClienteCRUD\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T17:10:55.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ClienteCRUD\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ClienteCRUD\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T17:09:58.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "ClienteCRUD\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "ClienteCRUD\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAkwIkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:56:22.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GerenciarClientes.cshtml",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\Cliente\\GerenciarClientes.cshtml",
+              "RelativeDocumentMoniker": "ClienteCRUD\\Views\\Cliente\\GerenciarClientes.cshtml",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\ClienteCRUD\\ClienteCRUD\\Views\\Cliente\\GerenciarClientes.cshtml",
+              "RelativeToolTip": "ClienteCRUD\\Views\\Cliente\\GerenciarClientes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T16:55:15.873Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

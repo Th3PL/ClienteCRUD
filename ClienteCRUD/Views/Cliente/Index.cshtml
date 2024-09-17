@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ClienteCRUD.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<h1>Clientes</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Rua</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>CEP</th>
+            <th>Tipo</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cliente in Model)
+        {
+            <tr>
+                <td>@cliente.Nome</td>
+                <td>@cliente.Email</td>
+                <td>@cliente.Endereco.Rua</td>
+                <td>@cliente.Endereco.Cidade</td>
+                <td>@cliente.Endereco.Estado</td>
+                <td>@cliente.Endereco.CEP</td>
+                <td>@cliente.Endereco.Tipo</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = cliente.Id })" class="btn btn-primary">Editar</a>
+                    <a href="@Url.Action("Delete", new { id = cliente.Id })" class="btn btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

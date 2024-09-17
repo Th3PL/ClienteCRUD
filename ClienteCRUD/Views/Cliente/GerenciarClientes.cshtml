@@ -1,0 +1,147 @@
+﻿@using ClienteCRUD.Models
+@using DevExtreme.AspNet.Mvc
+@model IEnumerable<ClienteCRUD.Models.Cliente>
+
+@{
+    Layout = "_DevExtremeLayout";
+}
+@{
+    ViewData["Title"] = "Gerenciar Clientes";
+}
+
+<h2>Gerenciar Clientes</h2>
+
+@(Html.DevExtreme().DataGrid<Cliente>()
+    .ID("gridClientes")
+    .DataSource(d => d.Mvc()
+        .Controller("Cliente")
+        .LoadAction("GetClientes")
+        .InsertAction("CreateCliente")
+        .UpdateAction("UpdateCliente")
+        .DeleteAction("DeleteCliente")
+        .Key("Id")
+    )
+    .ShowBorders(true)
+    .RepaintChangesOnly(true)
+    .Scrolling(s => s.Mode(GridScrollingMode.Virtual))
+    .Editing(e => e
+        .Mode(GridEditMode.Cell)
+        .RefreshMode(GridEditRefreshMode.Reshape)
+        .AllowAdding(true)
+        .AllowDeleting(true)
+        .AllowUpdating(true)
+    )
+    .Columns(columns =>
+    {
+        columns.AddFor(m => m.Nome).Caption("Nome do Cliente");
+        columns.AddFor(m => m.Email).Caption("Email");
+        columns.AddFor(m => m.Endereco.Rua).Caption("Rua");
+        columns.AddFor(m => m.Endereco.Cidade).Caption("Cidade");
+        columns.AddFor(m => m.Endereco.Estado).Caption("Estado");
+        columns.AddFor(m => m.Endereco.CEP).Caption("CEP");
+
+        columns.AddFor(m => m.Endereco.Tipo).Caption("Tipo de Endereço")
+            .Lookup(lookup => lookup
+                .DataSource(new[]
+                {
+                    new { Id = 0, Nome = "Fiscal" },
+                    new { Id = 1, Nome = "Cobrança" },
+                    new { Id = 2, Nome = "Entrega" }
+                })
+                .ValueExpr("Id")
+                .DisplayExpr("Nome")
+            );
+    })
+)
+
+<script>
+    function beforeSend(operation, ajaxSettings) {
+        var data = ajaxSettings.data || {},
+            args = Object.keys(data).map(function (key) {
+                return key + "=" + data[key];
+            }).join(" ");
+
+        var logList = $("#requests ul"),
+            time = DevExpress.localization.formatDate(new Date(), "HH:mm:ss"),
+            newItem = $("<li>").text([time, ajaxSettings.method, ajaxSettings.url, args].join(" "));
+
+        logList.prepend(newItem);
+    }
+</script>
+
+
+<script>
+    $(function () {
+        var dataGrid = $("#gridClientes").dxDataGrid({
+            dataSource: new DevExpress.data.CustomStore({
+                key: "Id",
+                load: function () {
+                    return $.getJSON("/Cliente/GetClientes");
+                },
+                insert: function (values) {
+                    return $.ajax({
+                        url: "/Cliente/CreateCliente",
+                        method: "POST",
+                        contentType: "application/json",
+                        data: JSON.stringify(values),
+                        dataType: "json"
+                    }).done(function () {
+                        dataGrid.refresh();
+                    }).fail(function (jqXHR, textStatus, errorThrown) {
+                        console.error("Erro ao adicionar o cliente:", textStatus, errorThrown);
+                        alert("Erro ao adicionar o cliente. Veja o console para mais detalhes.");
+                    });
+                },
+                update: function (key, values) {
+                    values.Id = key;
+                    return $.ajax({
+                        url: "/Cliente/UpdateCliente",
+                        method: "PUT",
+                        contentType: "application/json",
+                        data: JSON.stringify(values),
+                        dataType: "json"
+                    }).done(function (response) {
+                        if (response && response.success) {
+                            $("#gridClientes").dxDataGrid("instance").refresh();
+                        } else {
+                            console.error("Erro ao atualizar o cliente:", response);
+                            alert("Erro ao atualizar o cliente. Veja o console para mais detalhes.");
+                        }
+                    }).fail(function (jqXHR, textStatus, errorThrown) {
+                        console.error("Erro ao atualizar o cliente:", textStatus, errorThrown);
+                        alert("Erro ao atualizar o cliente. Veja o console para mais detalhes.");
+                    });
+                },
+                remove: function (key) {
+                    return $.ajax({
+                        url: "/Cliente/DeleteCliente",
+                        method: "DELETE",
+                        contentType: "application/json",
+                        data: JSON.stringify({ Id: key }),
+                        dataType: "json"
+                    }).done(function () {
+                        dataGrid.refresh();
+                    }).fail(function (jqXHR, textStatus, errorThrown) {
+                        console.error("Erro ao remover o cliente:", textStatus, errorThrown);
+                        alert("Erro ao remover o cliente. Veja o console para mais detalhes.");
+                    });
+                }
+            })
+        }).dxDataGrid("instance");
+
+        DevExpress.localization.locale("pt");
+    });
+
+    function beforeSend(operation, ajaxSettings) {
+        var data = ajaxSettings.data || {},
+            args = Object.keys(data).map(function (key) {
+                return key + "=" + data[key];
+            }).join(" ");
+
+        var logList = $("#requests ul"),
+            time = DevExpress.localization.formatDate(new Date(), "HH:mm:ss"),
+            newItem = $("<li>").text([time, ajaxSettings.method, ajaxSettings.url, args].join(" "));
+
+        logList.prepend(newItem);
+    }
+</script>
